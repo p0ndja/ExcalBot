@@ -1,0 +1,122 @@
+name: ExcalBot
+main: me.palapon2545.main.pluginMain
+version: 0.0.4
+description: Main plugin of Server
+author: p0N67a
+softdepend: [BarAPI]
+load: STARTUP
+website: https://github.com/palapon2545/SMD_Main
+commands:
+  force:
+       description: force player to chat
+       usage: /<command>
+  clearchat:
+       description: Clear Chat
+       usage: /<command>
+  broadcast:
+       description: Clear Chat
+       usage: /<command>
+       aliases: [bc]
+  gamemode:
+       description: Change Gamemode
+       usage: /<command>
+       aliases: [gm]
+  heal:
+       description: Heal your heart and reset effect, hunger
+       usage: /<command>
+  fly:
+       description: Toggle flying
+       usage: /<command>
+  invisible:
+       description: make you invisible
+       usage: /<command>
+  wild:
+       description: teleport you randomly to world item
+       usage: /<command>
+  back:
+       description: back to your last location before use wild
+       usage: /<command>
+  stuck:
+       description: Help from stucking
+       usage: /<command>
+  day:
+       description: time
+       usage: /<command>
+  midday:
+       description: time
+       usage: /<command>
+  night:
+       description: time
+       usage: /<command>
+  midnight:
+       description: time
+       usage: /<command>
+  sun:
+       description: weather
+       usage: /<command>
+  storm:
+       description: weather
+       usage: /<command>
+  rain:
+       description: weather
+       usage: /<command>
+  ping:
+       description: Check your lag!
+       usage: /<command>
+  world:
+       description: Teleport to another world
+       usage: /<command>
+  platewarp:
+       description: platewarp system
+       usage: /<command>
+  countdown:
+       description: Countdown system
+       usage: /<command>
+       aliases: [cd]
+  mute:
+       description: Punish Command
+       usage: /<command>
+  freeze:
+       description: Punish Command
+       usage: /<command>
+  warn:
+       description: Punish Command
+       usage: /<command>
+  resetwarn:
+       description: Punish Command
+       usage: /<command>
+  wiki:
+       description: Store of Information
+       usage: /<command>
+  adminchat:
+       description: Private Admin Chat
+       usage: /<command>
+       aliases: [ac]
+  closechunk:
+       description: Close Unusal chunks
+       usage: /<command>
+  hat:
+       description: Close Unusal chunks
+       usage: /<command>
+  report:
+       description: Report system
+       usage: /<command>
+  listreport:
+       description: Report system
+       usage: /<command>
+  checkreport:
+       description: Report system
+       usage: /<command>
+  closereport:
+       description: Report system
+       usage: /<command>
+  whisper:
+       description: Private chat system.
+       usage: /<command>
+       aliases: [tell, w, t, reply, r]
+  event:
+       description: Event Command
+       usage: /<command>
+  eventadmin:
+       description: EventAdmin Command
+       usage: /<command>
